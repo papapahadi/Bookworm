@@ -8,8 +8,8 @@ import SwiftData
 import SwiftUI
 
 struct AddBookView: View {
-    @Environment (\.modelContext) var modelContext
-    @Environment (\.dismiss) var dismiss
+    @Environment(\.modelContext) var modelContext
+    @Environment(\.dismiss) var dismiss
     
     @State private var title = ""
     @State private var author = ""
